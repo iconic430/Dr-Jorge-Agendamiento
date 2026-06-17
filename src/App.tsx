@@ -5,7 +5,7 @@
 
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Check, Gift, ArrowDown, Sparkles, Calendar } from 'lucide-react';
+import { Check, ArrowDown, Sparkles, Calendar } from 'lucide-react';
 
 export default function App() {
   const [step] = useState<1>(1);
@@ -95,25 +95,6 @@ export default function App() {
                 <p className="text-xs md:text-sm text-ink/80 font-medium font-sans">
                   Resultados visibles desde la primera sesión
                 </p>
-              </div>
-            </div>
-          </div>
-
-          {/* Premium BONUS Card styled with Dr. Jorge's Gold & Ivory palette */}
-          <div className="mt-8 pt-8 border-t border-gold/10">
-            <div className="bg-gradient-to-br from-paper via-white to-gold/5 rounded-2xl p-5 md:p-6 border border-gold/20 flex flex-col md:flex-row items-center justify-between gap-6 relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-24 h-24 bg-gold/5 rounded-full filter blur-xl pointer-events-none" />
-              
-              <div className="flex items-center gap-4 self-start md:self-center">
-                <div className="w-12 h-12 rounded-xl bg-gold/15 flex items-center justify-center shrink-0 border border-gold/30">
-                  <Gift className="w-6 h-6 text-gold" />
-                </div>
-                <div className="space-y-1">
-                  <h4 className="text-xs font-sans font-bold uppercase tracking-wider text-gold">Bono Por Agendar Online</h4>
-                  <p className="text-xs text-ink/70 leading-relaxed max-w-xl">
-                    Recibe diagnóstico integral con escaneo digital y valoración dental premium completa por agendar desde este sitio web.
-                  </p>
-                </div>
               </div>
             </div>
           </div>
